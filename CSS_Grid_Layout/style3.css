@@ -1,0 +1,15 @@
+.wrapper{
+    display: grid; 
+
+}
+
+
+.wrapper > div{
+    background: #eeeeee;
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(odd){
+    background: #dddd;
+}
+
